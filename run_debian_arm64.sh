@@ -12,7 +12,7 @@ kernel_build=$PWD/rootfs_debian_arm64/usr/src/linux/
 rootfs_path=$PWD/rootfs_debian_arm64
 rootfs_image=$PWD/rootfs_debian_arm64.ext4
 
-rootfs_size=4096
+rootfs_size=10240
 SMP="-smp 4"
 
 QEMU=qemu-system-aarch64
